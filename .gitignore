@@ -1,0 +1,75 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# History files
+.Rhistory
+.Rapp.history
+# Session Data files
+.RData
+# User-specific files
+.Ruserdata
+# Example code in package build process
+*-Ex.R
+# Output files from R CMD build
+/*.tar.gz
+# Output files from R CMD check
+/*.Rcheck/
+# RStudio files
+.Rproj.user/
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+vignettes/*.png
+vignettes/*_cache
+vignettes/example
+vignettes/demo_data
+vignettes/example/
+vignettes/demo_data/
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+# R Environment Variables
+.Renviron
+demo_data
+.Rproj.user
+manuscript
+manuscript/
+summary
+.RData
+.Rhistory
+logo.txt
+
+inst/doc
+
+vignettes/figures/
+vignettes/figures
+
+vignettes/mzxml_ms2_data/
+vignettes/mzxml_ms2_data
+
+vignettes/mgf_ms2_data/
+vignettes/mgf_ms2_data
+
+vignettes/mzxml_ms1_data/
+vignettes/mzxml_ms1_data
+
+vignettes/sample_info/
+vignettes/sample_info
+
+vignettes/metabolite_annotation/
+vignettes/metabolite_annotation
+
+vignettes/statiscal_analysis/
+vignettes/statiscal_analysis
+
+vignettes/statistical_analysis
+vignettes/statistical_analysis/
+
+logo.txt

@@ -1,0 +1,38 @@
+Package: tidymicrobiome
+Type: Package
+Title: R packages for microbiome data processing and analysis
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Xiaotao",
+           family = "Shen",
+           role = c("aut", "cre"),
+           email = "shenxt1990@outlook.com",
+           comment = c(ORCID = "0000-0002-9608-9964"))
+           )
+Description: The 'tidymicrobiome' package is a collection of several packages for microbiome data processing and analysis. The 'tidymicrobiome' is a set of packages that work in harmony because they share common data representations and 'API' design. This package is designed to make it easy to install and load multiple 'tidymicrobiome' packages in a single step. Learn more about the 'tidymicrobiome' at <https://tidymicrobiome.github.io/tidymicrobiome/>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.1)
+Imports: 
+    crayon,
+    purrr,
+    utils,
+    stringr,
+    cli,
+    rstudioapi,
+    dplyr,
+    microbiomedataset,
+    remotes,
+    magrittr,
+    microbiomeplot
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Remotes: 
+    gitlab::tidymicrobiome/microbiomedataset,
+    gitlab::tidymicrobiome/microbiomeplot
